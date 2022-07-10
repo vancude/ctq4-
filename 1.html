@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <title> web1 - HTML</title>
+  <meta charset="utf-8">
+<script>
+function nightDayHandler(self){
+  var target +
+  document.querySelector('body');
+  if (this.value === 'night'){
+  target.style.backgroundcolor = 'black';
+ target.style.color ='white';
+  self.value ='day';
+
+  var alist =
+  document.querySelectorALL('a');
+  var i =0;
+  while(i<alist.length){
+    alist[i].style.color = 'powerblue';
+    i = i + 1;
+  }
+}else{
+  target.style.backgroundcolor = 'white';
+  target.style.color ='black';
+  self.value = 'night';
+
+  var alist =
+  document.querySelectorALL('a');
+  var i =0;
+  while(i<alist.length){
+    alist[i].style.color = 'blue';
+    i = i + 1;
+  }
+ }
+}
+</script>
+</head>
+<body>
+<h1><a href="index.html">web</a></h1>
+       <input id="night_day" type="button"
+       value="night" onclick="
+       nightDayHandler(this);
+      ">
+
+ <OL>
+  <Li><a href="1.html">HTML</a></Li>
+  <Li><a href="2.html">CSS</a></Li>
+  <Li><a href="3.html">javascript</a></Li>
+  </ol>
+<h2>HTML</h2>
+<p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speicification"> Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications. and web browers receive HTML documents
+from a web server or from local storage and render them into multitude web pages. HTML describes the structure of a web page semantically and orginally included cues for
+the apperance of the document.
+<img src="coding.jpg" width="100%">
+</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, image and other objects, such as interactive forms, may be enbedded
+  into the reendered page. IT provides a means to create structured documents by denotting structural seamantics for text such as headings, paragraphs, lists, links,
+  quotes and other items. HTML elements are delineated by tags, written using angle bracketts. </p>
